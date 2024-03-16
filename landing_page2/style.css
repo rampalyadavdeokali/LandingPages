@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy",sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+     
+    background-image: url("https://media.istockphoto.com/id/1213454629/photo/abstract-glowing-waves.webp?b=1&s=170667a&w=0&k=20&c=ujK-0E6c0Meuarn-tQQlug-SmH-g05C0ufw6S3_mYTQ=");
+    background-size: 100%  20%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+     
+
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-image: url("https://images.unsplash.com/photo-1487435636644-3ad040f0195b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxvdmUlMjBmaWxsfGVufDB8fDB8fHww");
+
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: aqua;
+     
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px 0px 20px 0;
+}
+
+#a{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: 10px;
+    color: black;
+
+}
+#b{
+
+    
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: 15px;
+    color: black;
+    
+
+}
