@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%; 
+    background-color: gray;
+    display: flex;
+}
+
+#a{
+    height: 100%;
+    width: 40%;
+    
+    background-image: url("https://images.unsplash.com/photo-1709920680220-8ee257262056?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top-bottom;
+    margin: 10px;
+    
+}
+
+#b{
+    height: 100%;
+    width: 60%;
+    
+    margin: 5px;
+}
+
+#aa{
+    width: 100%;
+    height: 20%;
+     
+    align-items: center;
+    justify-content: center;
+}
+#bb{
+    width: 100%;
+    height: 20%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+     
+    align-items: center;
+     
+}
+#cc{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+}
+
+#c1{
+    width: 50%;
+    height: 100%;
+   
+    padding: 5px;
+  
+}
+#c2{
+    width: 50%;
+    height: 100%;
+     
+    padding: 5px;
+}
+
+
+#dd{
+    width: 100%;
+    height: 40%; 
+ 
+    padding-top: 10px;
+}
+#button{
+    width: 50%;
+    height: 20%;
+     
+    color: white;
+    
+      
+}
+
+#s:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
